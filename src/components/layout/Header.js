@@ -120,8 +120,8 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <a href="http://localhost:3000" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</a>
-                        <a href="http://localhost:3000" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Log in</a>
+                        <a href="http://app.routing.sky-it.dev" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</a>
+                        <a href="http://app.routing.sky-it.dev" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Log in</a>
                       </li>
                     </ul>}
                 </div>
