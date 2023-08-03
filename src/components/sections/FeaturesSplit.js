@@ -167,6 +167,69 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Download our mobile application
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Available on Android
+                </h3>
+                <p className="m-0">
+                  Get our mobile application from the Google Play Store to experience all our features on the go.
+                </p>
+                <p className="m-0">
+                  <a href="https://appdistribution.firebase.dev/i/df0f64a6e50f103a" target="_blank" rel="noopener noreferrer">
+                    Download from Google Play Store
+                  </a>
+                </p>
+              </div>
+              <div className={
+                classNames(
+                    'split-item-image center-content-mobile reveal-from-bottom',
+                    imageFill && 'split-item-image-fill'
+                )}
+                   data-reveal-container=".split-item">
+                <div style={{width: '450px'}}>
+                  <a href="https://appdistribution.firebase.dev/i/df0f64a6e50f103a" target="_blank" rel="noopener noreferrer">
+                    <Image
+                        src={require('./../../assets/images/android_app_image.png')}
+                        alt="Android app"
+                        style={{width: '100%', height: 'auto', border: '2px solid white', borderRadius: '10px'}}
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Coming Soon on iOS
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Expanding to iOS
+                </h3>
+                <p className="m-0">
+                  We're actively working to bring our app to iOS. Stay tuned for updates!
+                </p>
+              </div>
+              <div className={
+                classNames(
+                    'split-item-image center-content-mobile reveal-from-bottom',
+                    imageFill && 'split-item-image-fill'
+                )}
+                   data-reveal-container=".split-item">
+                <Image
+                    src={require('./../../assets/images/ios_app_coming_soon.png')}
+                    alt="Coming soon on iOS"
+                    width={528}
+                    height={396} />
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
